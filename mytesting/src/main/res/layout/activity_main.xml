@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custo="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                custo:auto_cycle="true"
+                custo:indicator_visibility="visible"
+                custo:pager_animation="Accordion"
+                custo:pager_animation_span="500" />
+
+            <com.daimajia.slider.library.Indicators.PagerIndicator
+                android:id="@+id/page_indicator"
+                style="@style/detail_indicator_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/slider"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"></com.daimajia.slider.library.Indicators.PagerIndicator>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
