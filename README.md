@@ -1,3 +1,5 @@
+<!--  This is what author's say,the start-->
+
 # Android Image Slider [![Build Status](https://travis-ci.org/daimajia/AndroidImageSlider.svg)](https://travis-ci.org/daimajia/AndroidImageSlider)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/daimajia/AndroidImageSlider?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -111,3 +113,7 @@ Please visit [Wiki](https://github.com/daimajia/AndroidImageSlider/wiki)
 ##About me
  
 I am a student in mainland China. I love Google, love Android, love everything that is interesting. If you get any problems when using this library or you have an internship opportunity, please feel free to [email me](mailto:daimajia@gmail.com). :smiley:
+<!--  This is what author's say,the end-->
+
+##testing project
+ It is easy to use combine the function slider and the function image-full-screen-show , also it is hard for me to understand the logic of library, first of all what is more important is that how to quickly integrated the function into your project when you can't realize the target. 
