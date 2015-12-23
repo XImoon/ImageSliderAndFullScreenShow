@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity implements OnSliderClickList
             mLayout.addSlider(imageSliderView);
         }
         // 设置默认的页卡指示器位置（若手动设置了页卡指示器则无效）
-//        mLayout.setPresetTransformer(SliderLayout.Transformer.ZoomOut);
-        mLayout.setPresetIndicator(SliderLayout.PresetIndicators.Left_Bottom);
+        // mLayout.setPresetIndicator(SliderLayout.PresetIndicators.Left_Bottom);
+        mLayout.setPresetTransformer(SliderLayout.Transformer.ZoomOut);
         // 轮播说明文本框动画效果
         mLayout.setCustomAnimation(new DescriptionAnimation());
         // 切换间隔
